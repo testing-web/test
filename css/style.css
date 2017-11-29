@@ -1,0 +1,118 @@
+header{
+	padding: 20px;
+	background: #1e1e1e;
+}
+header .nav{
+	min-height: 30px;
+	overflow: hidden;
+
+}
+/*--- LOGO ---*/
+header .logo h1,
+header .logo p {
+	font-size: 20px;
+	display: inline-block;
+	margin: 0;
+}
+header .logo h1{
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white;
+}
+header .logo p{
+	color: #777777;
+}
+/*--- LOGO ---*/
+/*--- MENU ---*/
+header .menu {
+	padding: 0;
+}
+header .menu a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 0 30px;
+}
+header .menu a:hover{
+	color: #777;
+}
+
+header .menu a div span{
+	font-weight: 600;
+}
+/*--- MENU ---*/
+/*--- SLIDER ---*/
+.slider{
+	margin-bottom: 20px; 
+}
+.slider .col{
+	padding: 0;
+}
+/*--- SLIDER ---*/	
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+footer{
+	padding: 20px 0;
+	background: #1e1e1e;
+	margin:0;
+}
+img {margin: 0; padding: 0; width: 100%;}
+
+/*@font-face{font-family: 'Roboto', sans-serif; src: url("fonts/Roboto-Regular.ttf");}*/
+
+.contenido{
+	color: black;
+}
+.contacto{
+	padding-bottom: 40px;
+	background: #1e1e1e;
+	margin-bottom: 35px;
+	color: white;
+	border-radius: 10px;
+}
+
+.titulo{
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.tituloh3{
+	font-family: 'roboto', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+/*----------- Dispositivo lg----------------*/
+@media screen and (max-width: 991px) {
+	.menu a{
+		width: 25%;
+	}
+	.menu a div {
+		width: 100%;
+	}
+	.menu a div span{
+		width: 100%;
+	}
+}
+/*----------- Dispositivo sm----------------*/
+@media screen and (max-width: 575px) {
+	.menu a{
+		width: 25%;
+}
+	header .menu a {padding: 0;}
+	header {
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 320px) {
+	.menu a{
+		width: 25%;
+}
+	header .menu a {padding: 0;}
+	header {
+		margin-top: 0;
+	}
+}
